@@ -1,0 +1,27 @@
+{
+  "name": "cypree-with-cucumber",
+  "version": "1.0.0",
+  "description": "test",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
